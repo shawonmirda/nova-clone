@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.my-nav li{
+    border: 1px solid #F8F9FA;
+    padding: 3px 10px;
+    margin: 0 5px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.active{
+    color: #2F80ED !important;
+    border-color: #2F80ED;
+}
+.my-nav li:hover{
+    color: #2F80ED;
+    border-color: #2F80ED;
+}
+.my-nav li a:hover{
+    color: #2F80ED;
+}
+.banner{
+    width: 100%;
+    background-image: url('https://preview.uideck.com/items/nova/assets/img/hero/hero-5/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    height: 100%;
+  
+}
+.build{
+    padding: 40px 0;
+    margin-top:100px ;
+    
+}
+.build h2{
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.head{
+    text-align: center;
+    padding: 60px 0;
+}
+.img-1{
+    width: 50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50%;
+    margin: auto;
+}
+.img-1 img{
+    width: 100%;
+}
+.title-1 h5{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.title-1 p{
+    text-align: center;
+    padding: 10px 0;
+}
+.title-1{
+    text-align: center;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   transition: 0.5s ;
+
+    padding: 70px 0;
+    border-radius: 50px;
+    border-bottom: 5px solid #5e5f61;
+}
+.title-1:hover{
+    border-bottom: 5px solid #2F80ED;
+    box-shadow: 0 0 40px rgba(31, 114, 178, 0.5);
+}
+.card-1{
+    margin-top: 20px;
+}
+.card-3{
+    margin-top: 20px;
+}
+.About p{
+    font-size: 18px;
+}
+.About{
+    background: #F3F3F3;
+    padding: 30px;
+}
+.Design p{font-size: 15px;
+    padding: 10px 0;
+    line-height: 15px;
+    color: #444242;
+
+
+}
+.Card-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.Card-box:hover .cardBox{
+    bottom: 0;
+
+}
+
+.cardBox{
+    position: absolute;
+    bottom: -200px;
+    left:0;
+    width: 100%;
+    padding: 20px;
+    background: #F8F9FA;
+    border-radius: 0 0 10px 10px
+    ;    transition: 0.5s;
+
+    
+}
